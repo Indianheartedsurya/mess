@@ -68,7 +68,7 @@ void loop() {
 }
 //************send the Card UID to the website*************
 void SendCardID( String Card_uid ){
-  Serial.println("Sending the Card ID");
+  Serial.println("Sending  the  Card ID");
   if(WiFi.isConnected()){
     HTTPClient http;    //Declare object of class HTTPClient
     //GET Data
